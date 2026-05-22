@@ -1,0 +1,4 @@
+{"asctime": "2026-05-22T14:37:55", "name": "main", "levelname": "INFO", "message": "Starting AI Exam Assistant Service..."}
+{"asctime": "2026-05-22T14:37:55", "name": "database.connection", "levelname": "INFO", "message": "Initializing database connections..."}
+{"asctime": "2026-05-22T14:37:59", "name": "database.connection", "levelname": "WARNING", "message": "Could not create vector extension: [WinError 1225] The remote computer refused the network connection"}
+{"asctime": "2026-05-22T14:37:59", "name": "database.connection", "levelname": "INFO", "message": "Database connections initialized successfully"}
