@@ -1,0 +1,40 @@
+AI EXAM PREP - HOW TO RUN (fix terminal errors)
+================================================
+
+ERROR: "Port 5000 is already in use"
+------------------------------------
+Your BACKEND IS ALREADY RUNNING. You do NOT need to start it again.
+
+Do this:
+  1. Open a NEW terminal
+  2. Run:
+     cd "c:\Users\SUCHITHRA\OneDrive\Desktop\impact project\frontend"
+     npm run dev
+  3. Open http://localhost:5173 in browser
+
+If frontend says port in use, use the URL it shows (5174, 5175, etc.)
+
+
+ERROR: "Missing script: start"
+------------------------------
+You are in the wrong folder. Use ONE of these:
+
+  From ROOT folder:
+    cd "c:\Users\SUCHITHRA\OneDrive\Desktop\impact project"
+    npm start
+
+  OR backend only:
+    cd "c:\Users\SUCHITHRA\OneDrive\Desktop\impact project\backend"
+    npm start
+
+  OR frontend only:
+    cd "c:\Users\SUCHITHRA\OneDrive\Desktop\impact project\frontend"
+    npm run dev
+
+
+FRESH START (if nothing works)
+------------------------------
+  1. Double-click STOP_SERVERS.bat
+  2. Double-click RUN_BACKEND.bat  (leave open)
+  3. Double-click RUN_FRONTEND.bat (leave open)
+  4. Open http://localhost:5173
